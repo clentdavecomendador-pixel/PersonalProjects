@@ -1,11 +1,24 @@
+html, body, #root {
+    min-height: 100%;
+    height: 100%;
+}
+
 body{
     background-color: #080808;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 hr{
     border: 0;
     height: 1px;
     background-color: #D6A84F;
+    margin: 0;
 }

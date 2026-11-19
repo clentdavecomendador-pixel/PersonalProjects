@@ -5,5 +5,5 @@ type MainProps = {
 };
 
 export const Main = ({ children }: MainProps) => {
-    return <main>{children}</main>;
+    return <main style={{ flex: 1, backgroundColor: '#111111' }}>{children}</main>;
 };

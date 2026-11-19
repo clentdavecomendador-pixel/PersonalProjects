@@ -7,6 +7,7 @@ export const HomepageStyled = styled.section`
  display: flex;
  flex-direction: column;
  align-items: center;
+ padding: 0 4rem;
     .title{
      display: flex;
      flex-direction: column;
